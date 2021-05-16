@@ -18,7 +18,7 @@ spec:
             - name: GIT_DIRECTORY
               value: "/tmp/git/rhel-edge-automation-arch"
             - name: GIT_URL
-              value: "https://github.com/redhat-cop/rhel-edge-automation-arch.git"
+              value: "https://github.com/mbach04/rhel-edge-automation-arch.git"
             - name: SSH_KEY
               value: "/var/secrets/image-builder-ssh-key/ssh-privatekey"
             - name: ANSIBLE_PLAYBOOK

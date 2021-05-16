@@ -13,7 +13,7 @@ spec:
   project: cluster-config
   source:
     path: openshift/gitops/manifests/configs/cnv/base
-    repoURL: https://github.com/redhat-cop/rhel-edge-automation-arch.git
+    repoURL: https://github.com/mbach04/rhel-edge-automation-arch.git
     targetRevision: main
   syncPolicy:
     automated:

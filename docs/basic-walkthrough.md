@@ -24,9 +24,9 @@ This walkthrough will illustrate the ease of building, publishing and consuming 
 
 ## Building a RHEL for Edge Image
 
-The process of building a RHEL for edge image involves composing a Blueprint containing list of packages to include, entry modules for packages, as well as any customizations to the resulting image. The architecture includes a Tekton pipeline with the purpose of building an RHEL for Edge Image from an existing blueprint. Sample blueprints are found on the [blueprints](https://github.com/redhat-cop/rhel-edge-automation-arch/tree/blueprints) branch of this repository.
+The process of building a RHEL for edge image involves composing a Blueprint containing list of packages to include, entry modules for packages, as well as any customizations to the resulting image. The architecture includes a Tekton pipeline with the purpose of building an RHEL for Edge Image from an existing blueprint. Sample blueprints are found on the [blueprints](https://github.com/mbach04/rhel-edge-automation-arch/tree/blueprints) branch of this repository.
 
-For the most basic configurations, a sample [hello-world](https://github.com/redhat-cop/rhel-edge-automation-arch/tree/blueprints/hello-world) blueprint is available and provides necessary configuration to run the containerized application.
+For the most basic configurations, a sample [hello-world](https://github.com/mbach04/rhel-edge-automation-arch/tree/blueprints/hello-world) blueprint is available and provides necessary configuration to run the containerized application.
 
 All of the content for managing RHEL for Edge applications are located in the `rfe` namespace within the OpenShift cluster.
 

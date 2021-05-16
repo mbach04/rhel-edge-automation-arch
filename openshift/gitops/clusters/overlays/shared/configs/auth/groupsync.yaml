@@ -10,7 +10,7 @@ spec:
   providers:
     - name: github
       github:
-        organization: redhat-cop
+        organization: mbach04
         credentialsSecret:
           name: github
           namespace: group-sync-operator
